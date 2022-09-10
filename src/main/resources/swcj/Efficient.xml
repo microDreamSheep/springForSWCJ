@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<SWCJ>
+    <config>
+        <timeout>10000</timeout>
+        <userAgent>
+            <value>Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/97.0.4692.71 Safari/537.36 Edg/97.0.1072.62</value>
+        </userAgent>
+        <executes>
+            <execute>
+                <key>jsoup</key>
+                <value>com.midream.sheep.swcj.core.executetool.execute.jsoup.SWCJJsoup</value>
+            </execute>
+        </executes>
+        <chooseStrategy>METHOD_NAME</chooseStrategy>
+    </config>
+    <swc>
+        <id>getHtml</id>
+        <cookies></cookies>
+        <parentInterface>test.B</parentInterface>
+        <url>
+            <name>name</name>
+            <type>GET</type>
+            <path>https://pic.netbian.com/</path>
+            <parseProgram>
+                <isHtml>false</isHtml>
+                <type>jsoup</type>>
+                <xml>
+                    <Jsoup>
+                        <jsoup name="">
+                            <pa not="下一页" allStep="0" step="0" element="">
+                                #main>div.slist>ul>li>a
+                            </pa>
+                        </jsoup>
+                    </Jsoup>
+                </xml>
+            </parseProgram>
+        </url>
+    </swc>
+</SWCJ>
