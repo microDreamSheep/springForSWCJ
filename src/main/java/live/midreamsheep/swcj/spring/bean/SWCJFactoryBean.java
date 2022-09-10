@@ -14,10 +14,12 @@ public class SWCJFactoryBean implements FactoryBean {
     public SWCJFactoryBean(Class<?> aClass) {
         this.aClass = aClass;
     }
+
     @Autowired
     public void setSWCJXmlFactory(SWCJXmlFactory swcjXmlFactory){
         this.swcjXmlFactory = swcjXmlFactory;
     }
+
     @Override
     public Object getObject() throws Exception {
         SWCJMapper annotation = aClass.getAnnotation(SWCJMapper.class);
@@ -32,4 +34,5 @@ public class SWCJFactoryBean implements FactoryBean {
     public Class<?> getObjectType() {
         return aClass;
     }
+
 }

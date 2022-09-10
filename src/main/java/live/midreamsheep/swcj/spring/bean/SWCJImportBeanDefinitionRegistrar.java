@@ -6,8 +6,6 @@ import org.springframework.beans.factory.support.BeanNameGenerator;
 import org.springframework.context.annotation.ImportBeanDefinitionRegistrar;
 import org.springframework.core.type.AnnotationMetadata;
 
-import java.util.Map;
-
 public class SWCJImportBeanDefinitionRegistrar implements ImportBeanDefinitionRegistrar {
 
     @Override

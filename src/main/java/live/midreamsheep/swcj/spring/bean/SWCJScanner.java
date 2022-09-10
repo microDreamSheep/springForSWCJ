@@ -1,14 +1,11 @@
 package live.midreamsheep.swcj.spring.bean;
 
-import live.midreamsheep.swcj.spring.annotation.SWCJScan;
 import org.springframework.beans.factory.annotation.AnnotatedBeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinition;
 import org.springframework.beans.factory.config.BeanDefinitionHolder;
 import org.springframework.beans.factory.support.BeanDefinitionRegistry;
 import org.springframework.context.annotation.ClassPathBeanDefinitionScanner;
-import org.springframework.core.type.classreading.MetadataReader;
 
-import java.io.IOException;
 import java.util.Objects;
 import java.util.Set;
 
